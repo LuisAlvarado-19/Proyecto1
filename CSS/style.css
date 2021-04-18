@@ -2,6 +2,7 @@
 *{
 	margin: 0px;
 	padding: 0;
+	color:white;
 }
 
 /*Fondo General*/
@@ -12,7 +13,20 @@ html, body, .cover{
 .cover{
 background-image: url(../IMG/Netflix.jpg);
 }
-
+section{
+	background-color: black;
+	border: solid 2px red;
+	padding-top:50px;
+	padding-bottom: 50px;
+}
+div.contenido{
+	width: 1100px;
+	margin:auto;
+	border: solid 2px blue;
+}
+.restaurar{
+	clear: both;
+}
 /* Fondo */
 section.cabecera{
 	background: none;
@@ -33,5 +47,124 @@ div.logo{
 div.login{
 	float: right;
 }
+h1{
+	font-size: 3.125rem;
+	font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 
+}
+h2{
+	font-size: 1.625rem;
+    margin: 1rem auto;
+	font-weight: 400;  
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+p{
+	font-size: 1.2rem;
+	font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+#correo{
+	width: 480px;
+	height: 60px;
+	
+}
+#enviar{
+	width:200px;
+	height: 63px;
+	border-radius: 3px;
+	border: solid 2px #e50914;
+	background-color: #e50914;
+	font-size: 1.615rem;
+	padding-bottom: 7px;
+	text-align: center;
+	cursor: pointer;
 
+}
+#inicio{
+	background-color: #e50914;
+	border: solid red 1px;
+	border-radius: 3px;
+	font-size:1rem;
+	padding:7px 17px;
+	cursor: pointer;
+}
+
+.presentacion{
+	position: relative;
+    width: 100%;
+    padding: 75px 0;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    margin-top: 7%;
+	}
+
+	input{
+		margin-top: 20px;
+		padding-left: 10px;
+		font-size: 20px;
+		display: inline-block;
+	}
+	 button #enviar{
+	 	margin-top: 22px;
+	 	display: inline-block;
+	 	
+	 }
+	 #enviar:hover{
+	 	background: red;
+
+	 }
+	 #inicio:hover{
+	 	background: red;
+
+	 }
+	 .izquierda{
+	 	float: left;
+	 }
+	 .derecha{
+	 	float:right;
+	 }
+	 .flotantetexto{
+	 	width: 60%;
+	 }
+	 .flotanteImagen{
+	 	width: 39.2%;
+	 }
+	 .izquierda{
+	 	border:solid 2px white;
+	 }
+	 .derecha{
+	 	border:solid 2px white;
+	 }
+	 .tv img{
+	 	width: 100%;
+	 	height: auto;
+	 	border: 0;
+	 	position: relative;
+	 	z-index: 2;
+	 }
+	 .tv h2{
+	 	font-weight: bold;
+	 	font-size: 45px
+
+	 }
+	 .tv p{
+	 	font-weight: 200px;
+	 	font-size: 25px;
+	 }
+	 .tv video{
+	 	position: absolute;
+	 	transform: translate(-374px, 68px);
+    	width: 313px;
+    	z-index: 1;
+	 }
+	  #video2{
+	  transform: translate(-349px, 36px);
+	  position: absolute;
+      width: 263px;
+	 }
+	 .tarjetaInt{
+	 	display: flex;
+	 	justify-content: center;
+	 	align-items: center;
+	 }
