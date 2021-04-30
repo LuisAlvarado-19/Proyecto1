@@ -15,14 +15,14 @@ background-image: url(../IMG/Netflix.jpg);
 }
 section{
 	background-color: black;
-	border: solid 2px red;
+	border-bottom: 8px solid #222;
 	padding-top:50px;
 	padding-bottom: 50px;
 }
 div.contenido{
 	width: 1100px;
 	margin:auto;
-	border: solid 2px blue;
+	
 }
 .restaurar{
 	clear: both;
@@ -99,72 +99,120 @@ p{
     margin-top: 7%;
 	}
 
-	input{
-		margin-top: 20px;
-		padding-left: 10px;
-		font-size: 20px;
-		display: inline-block;
-	}
-	 button #enviar{
-	 	margin-top: 22px;
-	 	display: inline-block;
+input{
+	margin-top: 20px;
+	padding-left: 10px;
+	font-size: 20px;
+	display: inline-block;
+}
+button #enviar{
+	margin-top: 22px;
+	display: inline-block;
 	 	
-	 }
-	 #enviar:hover{
-	 	background: red;
+	}
+#enviar:hover{
+	background: red;
 
-	 }
-	 #inicio:hover{
-	 	background: red;
+}
+#inicio:hover{
+background: red;
 
-	 }
-	 .izquierda{
-	 	float: left;
-	 }
-	 .derecha{
-	 	float:right;
-	 }
-	 .flotantetexto{
-	 	width: 60%;
-	 }
-	 .flotanteImagen{
-	 	width: 39.2%;
-	 }
-	 .izquierda{
-	 	border:solid 2px white;
-	 }
-	 .derecha{
-	 	border:solid 2px white;
-	 }
-	 .tv img{
-	 	width: 100%;
-	 	height: auto;
-	 	border: 0;
-	 	position: relative;
-	 	z-index: 2;
-	 }
-	 .tv h2{
-	 	font-weight: bold;
-	 	font-size: 45px
+}
+.izquierda{
+float: left;
+ }
+.derecha{
+	float:right;
+	}
+.flotantetexto{
+	width: 60%;
+}
+.flotanteImagen{
+	width: 39.2%;
+}
 
+.tv img{
+	width: 100%;
+	 height: auto;
+	 border: 0;
+	 position: relative;
+	 z-index: 2;
 	 }
-	 .tv p{
-	 	font-weight: 200px;
-	 	font-size: 25px;
+.tv h2{
+	font-weight: bold;
+	font-size: 45px
+
+}
+.tv p{
+	font-weight: 200px;
+	font-size: 25px;
+}
+.tv video{
+	position: absolute;
+	transform: translate(-374px, 68px);
+    width: 313px;
+    z-index: 1;
 	 }
-	 .tv video{
-	 	position: absolute;
-	 	transform: translate(-374px, 68px);
-    	width: 313px;
-    	z-index: 1;
+#video2{
+	transform: translate(-349px, 36px);
+    position: absolute;
+    width: 263px;
 	 }
-	  #video2{
-	  transform: translate(-349px, 36px);
-	  position: absolute;
-      width: 263px;
+.tarjetaInt{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	 }
-	 .tarjetaInt{
-	 	display: flex;
-	 	justify-content: center;
-	 	align-items: center;
+
+	 /*contenido de preguntas*/
+.preguntas h1{
+	margin-bottom: 50px; 	
 	 }
+.contPreguntas{
+	width: 800px;
+	 margin: auto;
+	 text-align: center;
+	 }
+.contPreguntas div{
+	text-align: left;
+}
+.pregunta{
+	background: #303030;
+	padding: 25px;
+	margin-top: 5px;
+	margin-bottom: 8px;
+	 }
+.respuesta{
+    background: #303030;
+    margin-top: 5px;
+    margin-bottom: 8px;
+	 	}
+.pregunta:hover .respuesta{
+	max-height: 700px;
+}
+	
+
+.respuesta{
+	max-height: 0px;
+	overflow: hidden;
+	transition: all 1s;
+	}
+
+.pieContenido{
+	width: 1000px;
+	margin: auto;
+	display: flex;
+	justify-content: flex;
+	text-align: justify-all;
+
+}
+
+.pie p{
+	padding:10px;
+}
+#contPie{
+	width: 250px;
+}
+.tv .pie{
+	border: none;
+}
